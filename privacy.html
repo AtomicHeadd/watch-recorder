@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>プライバシーポリシー — Watch Recorder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span>Watch Recorder</a><nav><a href="index.html">ホーム</a></nav></header>
+<main class="policy">
+  <p class="eyebrow">PRIVACY</p><h1>プライバシーポリシー</h1>
+  <p>更新日：2026年9月28日</p>
+  <p>本ポリシーは、Watch Recorderの時計用・Androidスマートフォン用アプリおよび本紹介サイトでの情報の取り扱いを説明します。</p>
+  <section><h2>1. 取り扱う情報と利用目的</h2><p>アプリは、利用者が録音した音声、録音日時・時間、分割ファイルの識別情報・整合性確認用ハッシュ値、転送状態、Google Drive上の保存先・ファイルID、連携・送信間隔の設定を扱います。これらは録音、再生、保存、転送の再試行、保存内容の確認、録音一覧の表示に利用します。</p></section>
+  <section><h2>2. Googleへのアクセス</h2><p>Googleの認可画面で許可を得たうえで、Google Drive APIの「drive.file」権限を使用します。アプリが作成したファイルや、利用者がアプリにアクセスを許可したファイルの範囲で操作する権限です。現在の実装は専用フォルダと録音ファイルの作成・保存・確認に使用し、Drive全体の読み取り権限は要求しません。</p><p>Googleのパスワードはアプリで取得しません。Googleの認可機能から受け取るアクセストークンはAPI通信のために使用し、アプリ独自のファイルや設定に永続保存しません。</p></section>
+  <section><h2>3. 保存と転送</h2><p>録音は時計内に保存し、Google Play servicesのWear OS Data Layerを介してスマートフォンへ転送します。スマートフォンはHTTPS通信で利用者自身のGoogle Driveへアップロードします。10秒以内に停止した録音は破棄し、スマートフォンやDriveへ送信しません。</p><p>開発者が運営する音声保管サーバーへ録音を送る機能はありません。Googleのサービスによるデータ処理には、Googleの利用規約・プライバシーポリシーも適用されます。</p></section>
+  <section><h2>4. 保持期間と削除</h2><p>時計内の録音は利用者が削除するまで保持します。未送信の音声は転送のために保持し、保存確認前の削除を制限します。スマートフォンの音声キャッシュはDriveへの保存と時計への完了通知の登録後に削除します。録音一覧の表示や再試行に必要なメタデータはスマートフォン内に残ります。</p><p>時計からの削除ではGoogle Driveの録音は削除しません。Drive内の録音は利用者がGoogle Driveで削除できます。端末内のアプリデータはOSのアプリ管理機能で削除できますが、未送信の録音は失われる場合があります。</p></section>
+  <section><h2>5. 第三者への提供と利用制限</h2><p>アプリは録音やGoogleユーザーデータを販売せず、広告配信、利用者の追跡、AI・機械学習モデルの開発・改善・訓練には使用しません。Google APIから受け取る情報の利用および他のアプリへの転送は、Limited Use要件を含む<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>に従います。</p></section>
+  <section><h2>6. 権限の管理</h2><p>マイクなどの端末権限はOS設定から変更できます。Googleとの連携権限はGoogleアカウントの接続管理から取り消せます。取り消し後はDriveへの保存ができなくなりますが、既にDriveへ保存したファイルは自動削除されません。</p></section>
+  <section><h2>7. このWebサイト</h2><p>本サイトはGitHub Pagesで配信する静的な紹介サイトです。独自のアクセス解析、広告、問い合わせフォームは設置していません。ホスティング提供者のGitHubは、サイト配信や安全確保のためにアクセス情報を取り扱う場合があります。詳しくは<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーステートメント</a>をご覧ください。</p></section>
+  <section><h2>8. お問い合わせと変更</h2><p>運営者：AtomicHeadd<br>お問い合わせ：<a href="mailto:kiruazorudexick@gmail.com">kiruazorudexick@gmail.com</a></p><p>取り扱いが変わる場合は本ページを更新し、更新日を明記します。</p></section>
+</main>
+<footer><a href="index.html">Watch Recorder ホーム</a></footer>
+</body>
+</html>
